@@ -33,10 +33,9 @@
 
 	<scm>
 		<!-- <connection>scm:git:https://github.com/yilativs/maven-ci-friendly-multimodule-sample-project.git</connection> -->
-		<developerConnection>scm:git:https://github.com/kumar0326/maven-ci-friendly-multimodule-sample-project.git</url>
-</developerConnection>
-    <scm>https://github.com/kumar0326/maven-ci-friendly-multimodule-sample-project.git<scm>
-	</scm>
+		<developerConnection>scm:git:https://github.com/kumar0326/maven-ci-friendly-multimodule-sample-project.git</developerConnection>
+		<connection>scm:git:https://github.com/kumar0326/maven-ci-friendly-multimodule-sample-project.git</connection>
+        </scm>
 
 	<distributionManagement>
 		<!-- in order to use this, one must have nexus up and running on a given url -->
