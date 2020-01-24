@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>foo.sample.maven.ci.friendly</groupId>
 	<artifactId>ci-friendly-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.1.0.${revision}</version>
+	<version>1.1.0.0</version>
 	<description>This module is a parent for multi-module ci friendly release management with maven. 
 	It can be used without flattening plugin if it's modules are not used in other project dependencies.
 	Usage: mvn clean deploy scm:tag -Drevision=$BUILD_NUMBER
@@ -35,7 +34,8 @@
 		<!-- <connection>scm:git:https://github.com/yilativs/maven-ci-friendly-multimodule-sample-project.git</connection> -->
 		<developerConnection>scm:git:https://github.com/kumar0326/maven-ci-friendly-multimodule-sample-project.git</developerConnection>
 		<connection>scm:git:https://github.com/kumar0326/maven-ci-friendly-multimodule-sample-project.git</connection>
-        </scm>
+          <tag>release-1.1.0.0-SNAPSHOT</tag>
+  </scm>
 
 	<distributionManagement>
 		<!-- in order to use this, one must have nexus up and running on a given url -->
