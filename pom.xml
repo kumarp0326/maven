@@ -33,8 +33,9 @@
 
 	<scm>
 		<!-- <connection>scm:git:https://github.com/yilativs/maven-ci-friendly-multimodule-sample-project.git</connection> -->
-		<developerConnection>scm:git:ssh://git@github.com/yilativs/maven-ci-friendly-multimodule-sample-project.git</developerConnection>
-		<url>https://github.com/yilativs/maven-ci-friendly-multimodule-sample-project</url>
+		<developerConnection>scm:git:https://github.com/kumar0326/maven-ci-friendly-multimodule-sample-project.git</url>
+</developerConnection>
+    <scm>https://github.com/kumar0326/maven-ci-friendly-multimodule-sample-project.git<scm>
 	</scm>
 
 	<distributionManagement>
