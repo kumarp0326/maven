@@ -44,10 +44,11 @@
 			<id>sample-release-repository</id>
 			<url>http://127.0.0.1:8081/repository/maven-sample-release/</url>
 		</repository>
-		<snapshotRepository>
+	        <snapshotRepository>
 			<!-- Snapshot repositories can be build on each commit to develop branch -->
-			<id>sample-snapshot-repository</id>
-			<url>http://127.0.0.1:8081/repository/maven-sample-snapshot/</url>
+			<id>code-snapshot</id>
+			<name>code-snapshot</name>
+			<url>http://localhost:8081/repository/code-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
