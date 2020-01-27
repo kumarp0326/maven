@@ -3,7 +3,7 @@
 	<groupId>foo.sample.maven.ci.friendly</groupId>
 	<artifactId>ci-friendly-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.1.0.1-SNAPSHOT</version>
+	<version>1.1.0.1</version>
 	<description>This module is a parent for multi-module ci friendly release management with maven. 
 	It can be used without flattening plugin if it's modules are not used in other project dependencies.
 	Usage: mvn clean deploy scm:tag -Drevision=$BUILD_NUMBER
@@ -41,8 +41,9 @@
 		<!-- in order to use this, one must have nexus up and running on a given url -->
 		<repository>
 			<!-- Snapshot repositories can be build on each commit to develop branch -->
-			<id>sample-release-repository</id>
-			<url>http://127.0.0.1:8081/repository/maven-sample-release/</url>
+			<id>code-release</id>
+			<name>code-release</name>
+			<url>http://localhost:8081/repository/code-release/</url>
 		</repository>
 	        <snapshotRepository>
 			<!-- Snapshot repositories can be build on each commit to develop branch -->
