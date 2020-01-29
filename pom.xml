@@ -3,7 +3,7 @@
 	<groupId>foo.sample.maven.ci.friendly</groupId>
 	<artifactId>ci-friendly-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.1.0.1</version>
+	<version>1.1.0.1-SNAPSHOT</version>
 	<description>This module is a parent for multi-module ci friendly release management with maven. 
 	It can be used without flattening plugin if it's modules are not used in other project dependencies.
 	Usage: mvn clean deploy scm:tag -Drevision=$BUILD_NUMBER
