@@ -18,4 +18,5 @@ mvn clean deploy scm:tag scm:branch -Drevision=$BUILD_NUMBER
 Inspired by [Maven Release Plugin: Dead and Buried](https://axelfontaine.com/blog/dead-burried.html)
 and
 [Defining a central version in multi-module projects](https://www.mojohaus.org/flatten-maven-plugin/examples/example-central-version.html)
-
+Test
+mvn clean test 
